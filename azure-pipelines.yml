@@ -91,6 +91,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: '1802f3f1-ef90-49e0-ab3f-55b9dc8208c8'
+              azureSubscription: 'Azure Pass - Sponsorship'
               appName: '$(WebAppNameDev)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
